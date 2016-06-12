@@ -58,7 +58,7 @@ public class TankHealth : MonoBehaviour
     }
 
 
-    private void OnDeath()
+private void OnDeath()
     {
         // Play the effects for the death of the tank and deactivate it.
         m_Dead = true;

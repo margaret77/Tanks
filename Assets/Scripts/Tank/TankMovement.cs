@@ -28,6 +28,7 @@ public class TankMovement : MonoBehaviour
     private void OnEnable ()
     {
         m_Rigidbody.isKinematic = false;
+
         m_MovementInputValue = 0f;
         m_TurnInputValue = 0f;
     }
